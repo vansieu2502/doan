@@ -1,0 +1,302 @@
+/* Desktop */
+
+.icon-right {
+    text-align: right;
+}
+
+.top-img img {
+    width: 942px;
+    height: 598px;
+}
+
+.navbar.navbar-expand-sm.navbar-light.bg-light {
+    margin-left: 195px;
+    margin-right: 195px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    font: 500 1.18571rem/1.22857rem Montserrat, sans-serif;
+}
+
+.navbar.navbar-expand-sm.navbar-light.bg-light {
+    /* font-size: 25px; */
+    font: 500 1.28571rem/1.42857rem Montserrat, sans-serif;
+}
+
+.topglobal {
+    margin: 0 12px;
+}
+
+.top-text {
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1.1;
+    font-size: 1.5em;
+    letter-spacing: .2em;
+}
+
+.topglobal h2 {
+    font-size: 4.25714rem;
+    color: black;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.collapse {
+    margin-right: 100px;
+}
+
+.mobile {
+    display: none;
+}
+
+.btn-default {
+    background: #f8e5e1;
+    padding: 1.28571rem 2.14286rem;
+    letter-spacing: .3em;
+    color: black;
+}
+
+.icon-top {
+    bottom: 2.14286rem;
+    text-align: left;
+    padding: 30px;
+    font-size: 0.5rem;
+}
+
+.far {
+    font-size: 1rem;
+}
+
+.title-text {
+    margin-top: -300px;
+    text-align: center;
+}
+
+.title-text h4 {
+    font-size: .92857rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.write-banner .title-text .btn {
+    border: .07143rem solid #000;
+    width: 80%;
+    margin: 2.14286rem 0 0;
+}
+
+.write-banner .title-text1 {
+    margin-top: 310px;
+    text-align: center;
+}
+
+.title-text1 p {
+    text-align: left;
+    margin-top: 34px;
+}
+
+.write-text1 h3 {
+    font-size: 1.28571rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.write-text1 {
+    margin-top: -120px;
+    text-align: center;
+}
+
+.write-text2 {
+    margin-top: -400px;
+    text-align: center;
+}
+
+.write-text2 h3 {
+    font-size: 1.28571rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.product-items {
+    text-align: center;
+}
+
+.product-button a {
+    text-decoration: none;
+    color: #000;
+    background: #f8e5e1;
+    padding: 1rem 3rem;
+}
+
+.pack {
+    margin-top: -40px;
+}
+
+.description {
+    text-align: center;
+}
+
+.btn-product {
+    background: #f8e5e1;
+    padding: 20px 100px;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.bp-name a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #000;
+    /* margin-left: -80px; */
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.subscribe {
+    background: #fae9e3;
+    text-transform: uppercase;
+}
+
+.number {
+    font-weight: bold;
+}
+
+.mail {
+    color: #fae9e3;
+}
+
+.text-blank {
+    text-decoration: none;
+    color: #000;
+}
+
+.product-button {
+    display: none;
+}
+
+.icon-bottom {
+    display: none;
+}
+
+.bottom-year {
+    margin-left: 90px;
+}
+
+.dm {
+    justify-content: center;
+}
+
+.reveal {
+    margin-left: 95%;
+    margin-right: 50px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    /* border: #f8e5e1; */
+    background: #f8e5e1;
+}
+
+.reveal i {
+    color: #fff;
+}
+
+.block-contact {
+    display: inline-block;
+}
+
+.block-categories {
+    display: inline-block;
+}
+
+
+/* Mobiles */
+
+@media (max-width:768px) {
+    .icon {
+        padding: 0 30px;
+    }
+    /* Responsive mobile... */
+    .icon-flex {
+        justify-content: space-around;
+        display: flex!important;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .icon-deck {
+        display: none;
+    }
+    #logo {
+        margin-left: 90%;
+    }
+    .top-text {
+        font-size: .4rem;
+    }
+    .topglobal h2 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.2;
+        text-transform: capitalize;
+    }
+    .topglobal .in-content {
+        display: none;
+    }
+    .icon-top {
+        display: none;
+    }
+    .btn-default {
+        background: #f8e5e1;
+        padding: .6rem 1.5rem;
+        letter-spacing: .3em;
+        color: black;
+    }
+    .top-img img {
+        width: 100%;
+        height: 240px;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        margin-top: -300px;
+        box-sizing: border-box;
+    }
+    .mobile p {
+        text-align: left;
+    }
+    .banner-mix {
+        margin-top: 80px;
+    }
+    .img-content {
+        margin-top: 360px;
+    }
+    .img-mix {
+        margin-top: 80px;
+    }
+    .content-popular {
+        font: 300 2.5714rem/3rem Montserrat, sans-serif;
+    }
+    .product-button {
+        display: block;
+    }
+    .icon-bottom {
+        display: block;
+    }
+    .reveal {
+        margin-left: 90%;
+    }
+    .item-footer {
+        display: none;
+    }
+}
